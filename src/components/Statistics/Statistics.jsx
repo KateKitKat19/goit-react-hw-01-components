@@ -4,7 +4,7 @@ export const Statistics = ({ title, stats }) => {
   return (
     <Wrapper>
       {title && <Title>{title}</Title>}
-      <StatsList className="stat-list">
+      <StatsList>
         {stats.map(item => (
           <StatsItem key={item.id}>
             <span>{item.label}</span>

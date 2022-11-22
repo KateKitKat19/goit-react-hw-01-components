@@ -9,7 +9,7 @@ export const Item = styled.li`
   flex-grow: 1;
   width: 250px;
   height: 100px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(45, 45, 45, 0.2) 3px 4px 4px;
 `;
 
 export const OnlineMarker = styled.span`
