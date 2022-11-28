@@ -8,8 +8,10 @@ export const Wrapper = styled.div`
   width: 200px;
   height: auto;
   margin: 0 auto;
+  margin-top: 10px;
   padding: 10px;
   background-color: rgb(245, 243, 245);
+  box-shadow: hsla(0, 0%, 0%, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 `;
 
 export const Info = styled.div`
