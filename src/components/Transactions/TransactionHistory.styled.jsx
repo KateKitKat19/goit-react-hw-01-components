@@ -16,16 +16,23 @@ export const TableHead = styled.thead`
 
 export const HeadCell = styled.th`
   margin: 0 auto;
+  padding: 0;
   width: calc(500px / 3);
   flex-grow: 1;
+  background-color: lightblue;
 `;
 
 export const TableRow = styled.tr`
   height: 25px;
+  background-color: lightgray;
+  &:nth-child(2n) {
+    background-color: white;
+  }
 `;
 
 export const TableData = styled.td`
   text-align: center;
   width: calc(500px / 3);
   flex-grow: 1;
+  padding: 0;
 `;

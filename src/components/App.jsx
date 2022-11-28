@@ -7,7 +7,6 @@ import { Statistics } from './Statistics/Statistics';
 import { FriendsList } from './FriendList/FriendList';
 import { TransactionHistory } from './Transactions/TransactionHistory';
 
-console.log(transactions);
 export const App = () => {
   return (
     <>
